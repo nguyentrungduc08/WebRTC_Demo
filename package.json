@@ -1,0 +1,30 @@
+{
+  "name": "webrtc-demo",
+  "version": "1.0.0",
+  "description": "Simple WebRTC Demo",
+  "scripts": {
+    "start": "nodemon server.js",
+    "watch": "npx watchify ./public/js/app.js -o ./public/js/bundle.js"
+  },
+  "keywords": [
+    "WebRTC"
+  ],
+  "author": "Duc Trung Nguyen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://nguyentrungduc08.github.io/"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1",
+    "semantic-ui-css": "^2.3.1",
+    "simple-peer": "^9.6.2",
+    "simplewebrtc": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "watchify": "^3.11.1"
+  }
+}
